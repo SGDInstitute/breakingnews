@@ -1,0 +1,8 @@
+{% set breakingPost = __SELF__.breakingPost %}
+
+{% if breakingPost %}
+<a href="/news/post/{{ breakingPost.slug }}" class="breaking-news" data-id="{{ breakingPost.id }}" style="display: none;">
+    Breaking: {{ breakingPost.title }}
+    <span class="pull-right breaking-news-close"><i class="fa fa-times"></i></span>
+</a>
+{% endif %}

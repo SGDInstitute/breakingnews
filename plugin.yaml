@@ -1,0 +1,6 @@
+plugin:
+    name: 'sgdinstitute.breakingnews::lang.plugin.name'
+    description: 'sgdinstitute.breakingnews::lang.plugin.description'
+    author: 'SGD Institute'
+    icon: oc-icon-anchor
+    homepage: ''
